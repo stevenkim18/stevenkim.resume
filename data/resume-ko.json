@@ -1,0 +1,113 @@
+{
+    "profile": {
+        "name": "김지훈",
+        "title": "Senior Frontend Engineer",
+        "photo": "https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2NTQyNjYxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "email": "jihoon.dev@example.com",
+        "phone": "010-1234-5678",
+        "location": "서울, 대한민국",
+        "linkedin": "linkedin.com/in/jihoon-dev",
+        "github": "github.com/jihoon-dev",
+        "website": "jihoon.dev"
+    },
+    "summary": "6년차 프론트엔드 엔지니어로서 React, TypeScript, Node.js 기반의 확장 가능한 웹 애플리케이션 구축에 강점이 있습니다. 웹 성능 최적화를 통해 사용자 전환율을 증대시킨 경험이 있으며, 주도적으로 디자인 시스템을 도입하여 개발 생산성을 높이는 데 기여했습니다. 비즈니스 임팩트를 최우선으로 생각하며, 유지보수하기 좋은 코드를 작성하는 것을 지향합니다.",
+    "experience": [
+        {
+            "company": "테크 스타트업 (Tech Startup Inc.)",
+            "location": "서울 (원격 근무)",
+            "role": "시니어 프론트엔드 엔지니어",
+            "period": "2022.01 – 현재",
+            "achievements": [
+                "기존 레거시 모놀리식 구조를 <strong>Next.js 기반의 마이크로 프론트엔드 아키텍처</strong>로 전환하여 빌드 시간을 60% 단축하고, 3개 스쿼드가 독립적으로 배포할 수 있는 환경을 구축했습니다.",
+                "메인 랜딩 페이지의 Core Web Vitals를 최적화하여 <strong>LCP를 2.5초에서 0.8초로 개선</strong>했으며, 이를 통해 유저 전환율이 15% 상승하는 성과를 달성했습니다.",
+                "Radix UI와 Tailwind CSS를 활용한 사내 <strong>디자인 시스템</strong>을 설계 및 구현하여 4개의 프로덕트 간 UI 일관성을 확보하고 개발 속도를 향상시켰습니다.",
+                "주니어 개발자 2명의 멘토링을 담당하며 코드 리뷰와 주간 페어 프로그래밍을 통해 팀 내 엔지니어링 문화를 주도했습니다.",
+                "웹 접근성 가이드라인(WCAG 2.1 AA) 준수를 위한 프로젝트를 리딩하여 서비스의 접근성을 개선하고 잠재적인 법적 리스크를 해소했습니다."
+            ]
+        },
+        {
+            "company": "글로벌 이커머스 (Global E-commerce Ltd.)",
+            "location": "서울",
+            "role": "소프트웨어 엔지니어",
+            "period": "2019.06 – 2021.12",
+            "achievements": [
+                "<strong>일일 거래액 10억 원 이상</strong>의 결제 프로세스를 전담 개발 및 운영하였으며, 블랙프라이데이 트래픽 급증 시에도 99.99%의 가용성을 유지했습니다.",
+                "Stripe, PayPal 등 서드파티 결제 모듈 연동 및 에러 핸들링 로직을 개선하여 결제 실패율을 20% 감소시켰습니다.",
+                "기획팀 및 디자인팀과 협업하여 A/B 테스트 환경을 구축하고 실험을 진행, 평균 주문액(AOV)을 5% 증대시켰습니다.",
+                "Cypress를 활용한 E2E 테스트 자동화를 도입하여 코드 커버리지를 40%에서 85%로 끌어올리고 배포 후 버그 발생률을 현저히 낮췄습니다.",
+                "레거시 Redux 상태 관리 로직을 React Query로 마이그레이션하여 데이터 페칭 로직을 단순화하고 보일러플레이트 코드를 40% 제거했습니다."
+            ]
+        },
+        {
+            "company": "크리에이티브 에이전시",
+            "location": "서울",
+            "role": "프론트엔드 개발자",
+            "period": "2017.03 – 2019.05",
+            "achievements": [
+                "React와 SCSS를 활용하여 10개 이상의 클라이언트 웹사이트를 반응형으로 구축하였으며, IE11 크로스 브라우징 이슈를 해결했습니다.",
+                "Gulp/Webpack을 이용한 이미지 최적화 파이프라인을 구축하여 페이지 로딩 속도를 평균 30% 개선했습니다.",
+                "GSAP 애니메이션을 활용한 대기업 브랜드 프로모션 페이지를 개발하여 사용자 인터랙션과 체류 시간을 높였습니다."
+            ]
+        },
+        {
+            "company": "대학교 연구실",
+            "location": "서울",
+            "role": "학부 연구원 (Research Assistant)",
+            "period": "2016.09 – 2017.02",
+            "achievements": [
+                "D3.js를 활용하여 대규모 센서 데이터를 시각화하는 웹 기반 분석 도구 개발에 참여했습니다.",
+                "MySQL 쿼리 최적화를 통해 시각화 렌더링에 필요한 데이터 조회 시간을 50% 단축했습니다."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "실시간 협업 대시보드 (Real-time Collaboration Dashboard)",
+            "link": "#",
+            "year": "2023",
+            "techStack": "React, WebSocket, Node.js, Redis, Docker",
+            "descriptions": [
+                "WebSocket과 Redis Pub/Sub을 활용하여 500명 이상의 동시 접속자를 처리할 수 있는 실시간 데이터 시각화 대시보드를 개발했습니다.",
+                "RBAC(역할 기반 접근 제어)를 구현하여 사용자 레벨에 따른 데이터 보안을 강화했습니다."
+            ]
+        },
+        {
+            "name": "오픈소스 기여: React UI 라이브러리",
+            "link": "#",
+            "year": "2022",
+            "techStack": "React, TypeScript, Jest",
+            "descriptions": [
+                "유명 React UI 컴포넌트 라이브러리의 Modal 컴포넌트에서 발생하던 메모리 누수 버그를 수정하여 기여했습니다.",
+                "엣지 케이스를 커버하는 유닛 테스트를 추가하여 주간 1만 회 이상 다운로드되는 라이브러리의 안정성을 높였습니다."
+            ]
+        },
+        {
+            "name": "개인 가계부 모바일 앱",
+            "link": "#",
+            "year": "2021",
+            "techStack": "React Native, Firebase, Redux",
+            "descriptions": [
+                "React Native를 활용한 크로스 플랫폼 가계부 앱을 개발 및 배포하여 1,000명 이상의 실사용자를 확보했습니다.",
+                "로컬 스토리지와 백그라운드 동기화 기능을 구현하여 오프라인 환경에서도 지출 내역을 기록할 수 있도록 했습니다."
+            ]
+        }
+    ],
+    "activities": [
+        "<strong>FE Conf Korea 2023 발표</strong> – \"마이크로 프론트엔드로 확장 가능한 아키텍처 구축하기\".",
+        "<strong>기술 블로그 운영</strong> – React 성능 최적화 및 TypeScript 활용 팁 등 20개 이상의 기술 아티클 작성, 누적 조회수 5만 회 달성.",
+        "<strong>올해의 우수 사원상</strong> (Global E-commerce Ltd.) – 결제 시스템 안정화에 대한 공로를 인정받아 수상 (2020).",
+        "<strong>서울 테크 해커톤 1위</strong> – 시각 장애인을 위한 AI 기반 웹 접근성 개선 도구 개발 (2019)."
+    ],
+    "education": [
+        {
+            "school": "한국대학교 (Korea University)",
+            "degree": "컴퓨터공학 학사",
+            "period": "2013.03 – 2017.02"
+        },
+        {
+            "school": "캘리포니아 대학교 버클리 (UC Berkeley)",
+            "degree": "교환학생 (Computer Science)",
+            "period": "2015.08 – 2016.05"
+        }
+    ]
+}
