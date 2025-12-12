@@ -1,113 +1,281 @@
 {
     "profile": {
-        "name": "김지훈",
-        "title": "Senior Frontend Engineer",
+        "name": "김승우",
+        "title": "iOS / FullStack 개발자",
         "photo": "https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2NTQyNjYxMnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "email": "jihoon.dev@example.com",
-        "phone": "010-1234-5678",
+        "email": "11882@naver.com",
+        "phone": "010-4853-9736",
         "location": "서울, 대한민국",
-        "linkedin": "linkedin.com/in/jihoon-dev",
-        "github": "github.com/jihoon-dev",
-        "website": "jihoon.dev"
+        "github": "github.com/stevenkim18"
     },
-    "summary": "6년차 프론트엔드 엔지니어로서 React, TypeScript, Node.js 기반의 확장 가능한 웹 애플리케이션 구축에 강점이 있습니다. 웹 성능 최적화를 통해 사용자 전환율을 증대시킨 경험이 있으며, 주도적으로 디자인 시스템을 도입하여 개발 생산성을 높이는 데 기여했습니다. 비즈니스 임팩트를 최우선으로 생각하며, 유지보수하기 좋은 코드를 작성하는 것을 지향합니다.",
+    "summary": "약 4년간 iOS 모바일 개발자로 근무했으며, 현재는 프리랜서로 iOS 개발과 교육을 병행하고 있습니다. 최근에는 풀스택 개발 역량을 확장하는 동시에, AI 기술을 활용해 빠르게 서비스를 구현하는 방법과 AI와 함께 성장하기 위한 효율적인 학습 방식에 관심을 가지고 다양한 시도를 이어가고 있습니다. 최신 기술과 도구를 적극적으로 탐색하고, 이를 실제 프로젝트에 적용해 공유하는 과정을 즐깁니다.",
+    "skills": [
+        {
+            "category": "iOS",
+            "items": [
+                {
+                    "name": "Swift",
+                    "proficient": true
+                },
+                {
+                    "name": "SwiftUI",
+                    "proficient": true
+                },
+                {
+                    "name": "UIKit",
+                    "proficient": true
+                },
+                {
+                    "name": "TCA",
+                    "proficient": true
+                },
+                {
+                    "name": "RxSwift",
+                    "proficient": true
+                },
+                {
+                    "name": "ReactorKit",
+                    "proficient": true
+                },
+                {
+                    "name": "SnapKit",
+                    "proficient": true
+                },
+                {
+                    "name": "Tuist"
+                },
+                {
+                    "name": "Flutter"
+                },
+                {
+                    "name": "ARKit"
+                },
+                {
+                    "name": "RealityKit"
+                }
+            ]
+        },
+        {
+            "category": "Frontend",
+            "items": [
+                {
+                    "name": "JavaScript"
+                },
+                {
+                    "name": "TypeScript"
+                },
+                {
+                    "name": "React"
+                },
+                {
+                    "name": "Next.js"
+                }
+            ]
+        },
+        {
+            "category": "Backend",
+            "items": [
+                {
+                    "name": "Express"
+                },
+                {
+                    "name": "Nest.js"
+                },
+                {
+                    "name": "PostgreSQL"
+                },
+                {
+                    "name": "Prisma"
+                },
+                {
+                    "name": "Docker"
+                },
+                {
+                    "name": "FastAPI"
+                }
+            ]
+        },
+        {
+            "category": "AI Tools",
+            "items": [
+                {
+                    "name": "Claude Code",
+                    "proficient": true
+                },
+                {
+                    "name": "Cursor",
+                    "proficient": true
+                },
+                {
+                    "name": "Antigravity",
+                    "proficient": true
+                },
+                {
+                    "name": "Gemini CLI",
+                    "proficient": true
+                }
+            ]
+        }
+    ],
     "experience": [
         {
-            "company": "테크 스타트업 (Tech Startup Inc.)",
-            "location": "서울 (원격 근무)",
-            "role": "시니어 프론트엔드 엔지니어",
-            "period": "2022.01 – 현재",
+            "company": "스카이랩스 (SkyLabs)",
+            "companyUrl": "https://www.skylabs.io/",
+            "companyDescription": "반지형 혈압 측정기 CART BP 개발",
+            "role": "iOS 개발자",
+            "employmentType": "프리랜서",
+            "period": "2025.09 – 2025.12",
             "achievements": [
-                "기존 레거시 모놀리식 구조를 <strong>Next.js 기반의 마이크로 프론트엔드 아키텍처</strong>로 전환하여 빌드 시간을 60% 단축하고, 3개 스쿼드가 독립적으로 배포할 수 있는 환경을 구축했습니다.",
-                "메인 랜딩 페이지의 Core Web Vitals를 최적화하여 <strong>LCP를 2.5초에서 0.8초로 개선</strong>했으며, 이를 통해 유저 전환율이 15% 상승하는 성과를 달성했습니다.",
-                "Radix UI와 Tailwind CSS를 활용한 사내 <strong>디자인 시스템</strong>을 설계 및 구현하여 4개의 프로덕트 간 UI 일관성을 확보하고 개발 속도를 향상시켰습니다.",
-                "주니어 개발자 2명의 멘토링을 담당하며 코드 리뷰와 주간 페어 프로그래밍을 통해 팀 내 엔지니어링 문화를 주도했습니다.",
-                "웹 접근성 가이드라인(WCAG 2.1 AA) 준수를 위한 프로젝트를 리딩하여 서비스의 접근성을 개선하고 잠재적인 법적 리스크를 해소했습니다."
+                "UIKit, RxSwift로 되어 있는 일반 사용자 앱 → SwiftUI + TCA + Tuist(모듈화) 스택으로 전환"
             ]
         },
         {
-            "company": "글로벌 이커머스 (Global E-commerce Ltd.)",
-            "location": "서울",
-            "role": "소프트웨어 엔지니어",
-            "period": "2019.06 – 2021.12",
+            "company": "이스트캠프",
+            "companyUrl": "https://estbootcamp.co.kr/",
+            "companyDescription": "이스트소프트 산하 온라인 부트캠프 교육기관",
+            "role": "iOS 과정 멘토",
+            "employmentType": "프리랜서",
+            "period": "2025.05 – 2025.09",
             "achievements": [
-                "<strong>일일 거래액 10억 원 이상</strong>의 결제 프로세스를 전담 개발 및 운영하였으며, 블랙프라이데이 트래픽 급증 시에도 99.99%의 가용성을 유지했습니다.",
-                "Stripe, PayPal 등 서드파티 결제 모듈 연동 및 에러 핸들링 로직을 개선하여 결제 실패율을 20% 감소시켰습니다.",
-                "기획팀 및 디자인팀과 협업하여 A/B 테스트 환경을 구축하고 실험을 진행, 평균 주문액(AOV)을 5% 증대시켰습니다.",
-                "Cypress를 활용한 E2E 테스트 자동화를 도입하여 코드 커버리지를 40%에서 85%로 끌어올리고 배포 후 버그 발생률을 현저히 낮췄습니다.",
-                "레거시 Redux 상태 관리 로직을 React Query로 마이그레이션하여 데이터 페칭 로직을 단순화하고 보일러플레이트 코드를 40% 제거했습니다."
+                "약 40명 교육생 대상으로 질의 응답, 멘토링, 프로젝트 평가 담당",
+                "SwiftUI, UIKit, 고급 iOS 프로그래밍 과정 지원"
             ]
         },
         {
-            "company": "크리에이티브 에이전시",
-            "location": "서울",
-            "role": "프론트엔드 개발자",
-            "period": "2017.03 – 2019.05",
+            "company": "USG 공유 대학",
+            "companyUrl": "https://www.usg.ac.kr/bbs/board.php?bo_table=notice&wr_id=394",
+            "companyDescription": "경상도 공립 대학교 학생 대상 온라인 교육 프로그램",
+            "role": "Apple 개발자 과정 강사",
+            "employmentType": "프리랜서",
+            "period": "2024.12 – 2025.02",
             "achievements": [
-                "React와 SCSS를 활용하여 10개 이상의 클라이언트 웹사이트를 반응형으로 구축하였으며, IE11 크로스 브라우징 이슈를 해결했습니다.",
-                "Gulp/Webpack을 이용한 이미지 최적화 파이프라인을 구축하여 페이지 로딩 속도를 평균 30% 개선했습니다.",
-                "GSAP 애니메이션을 활용한 대기업 브랜드 프로모션 페이지를 개발하여 사용자 인터랙션과 체류 시간을 높였습니다."
+                "약 80명 학생 대상으로 iOS 개발 초급/중급 과정 담당 (주 2회, 총 8주)",
+                "Swift 기초, iOS 프로그래밍 기초 강의 및 개인 프로젝트 멘토링 진행"
             ]
         },
         {
-            "company": "대학교 연구실",
-            "location": "서울",
-            "role": "학부 연구원 (Research Assistant)",
-            "period": "2016.09 – 2017.02",
+            "company": "엑스알스테이지 (XRStage)",
+            "companyUrl": "https://www.wanted.co.kr/company/52965",
+            "companyDescription": "브에이코퍼레이션 자회사, 공간 컴퓨팅(XR) R&D 신생 스타트업",
+            "role": "Vision Pro 개발자",
+            "employmentType": "정규직",
+            "period": "2024.07 – 2024.08",
             "achievements": [
-                "D3.js를 활용하여 대규모 센서 데이터를 시각화하는 웹 기반 분석 도구 개발에 참여했습니다.",
-                "MySQL 쿼리 최적화를 통해 시각화 렌더링에 필요한 데이터 조회 시간을 50% 단축했습니다."
-            ]
+                "Vision Pro R&D 및 프로토타입 앱 개발 및 기획",
+                "Vision Pro 공간 날씨 앱, 가구 배치 앱 개발"
+            ],
+            "leaveReason": "개인 사정으로 인한 수습 종료"
+        },
+        {
+            "company": "닷슬래시대시 (Dot Slash Dash)",
+            "companyUrl": "https://www.dotslashdash.com/",
+            "companyDescription": "숏폼 콘텐츠 기반의 마케팅 플랫폼",
+            "role": "iOS 개발자",
+            "employmentType": "정규직",
+            "period": "2024.04 – 2024.06",
+            "achievements": [
+                "Dot Slash Dash 앱 운영 및 신규 기능 개발"
+            ],
+            "leaveReason": "투자 유치 실패로 인한 권고 사직"
+        },
+        {
+            "company": "커넥팅 더닷츠 (째깍악어)",
+            "companyUrl": "https://thedotscorp.com/",
+            "companyDescription": "아이 돌봄 매칭 플랫폼",
+            "role": "모바일 개발자",
+            "employmentType": "정규직",
+            "period": "2021.11 – 2023.09",
+            "achievements": [
+                "째깍악어 부모님/선생님 앱, 신규 기능 개발 및 유지 보수, 배포 운영 진행",
+                "Storyboard와 AutoResize, MVP 패턴으로 되어 있는 구조를 SnapKit, ReactorKit로 전환",
+                "iOS 네이티브 앱에서 Flutter 전환 프로젝트 참여",
+                "Firebase Crashlytics를 활용하여 앱 안정성 99% 유지",
+                "Fastlane, Firebase AppDistribution을 이용해서 배포 자동화 구축",
+                "iOS팀에 코드 컨벤션, GitFlow, 코드 리뷰 도입",
+                "iOS팀에 Notion 도입, 업무 문서화 진행",
+                "채널톡, 네이버 로그인, 마케팅 툴(Amplitude, Braze, Airbridge) 등 외부 SDK 적용"
+            ],
+            "leaveReason": "커리어 발전을 위해 퇴사"
         }
     ],
     "projects": [
         {
-            "name": "실시간 협업 대시보드 (Real-time Collaboration Dashboard)",
-            "link": "#",
-            "year": "2023",
-            "techStack": "React, WebSocket, Node.js, Redis, Docker",
+            "name": "Weather Watch 비전프로 앱",
+            "year": "2024.07 - 24.08",
+            "techStack": "SwiftUI, ARKit, Apple WeatherKit, RealityKit",
             "descriptions": [
-                "WebSocket과 Redis Pub/Sub을 활용하여 500명 이상의 동시 접속자를 처리할 수 있는 실시간 데이터 시각화 대시보드를 개발했습니다.",
-                "RBAC(역할 기반 접근 제어)를 구현하여 사용자 레벨에 따른 데이터 보안을 강화했습니다."
+                "애플 비전 프로용, 실시간 날씨 정보 위젯 앱 개발 프로젝트",
+                "공간 컴퓨팅에 대한 이해 및 공간 컴퓨팅 앱 개발 프로세스 정립",
+                "Apple 공식 문서로 학습 후, 디자이너와 기획자에게 개발 프로세스 문서화 작업 진행 → 공간 컴퓨팅 앱 개발 프로세스 확립"
             ]
         },
         {
-            "name": "오픈소스 기여: React UI 라이브러리",
-            "link": "#",
-            "year": "2022",
-            "techStack": "React, TypeScript, Jest",
+            "name": "Dot Slash Dash 앱 신규 업로드",
+            "year": "2024.04 - 24.06",
+            "techStack": "SwiftUI, AVFoundation, MVVM, JavaScript, Rich Editor",
             "descriptions": [
-                "유명 React UI 컴포넌트 라이브러리의 Modal 컴포넌트에서 발생하던 메모리 누수 버그를 수정하여 기여했습니다.",
-                "엣지 케이스를 커버하는 유닛 테스트를 추가하여 주간 1만 회 이상 다운로드되는 라이브러리의 안정성을 높였습니다."
+                "영상 선택, 메모 작성, 편집, 업로드 기능 전체 리뉴얼 프로젝트",
+                "미완성된 프로젝트에 투입되어 기능 개발 완료 및 개선 → 코드 분석력 향상",
+                "웹뷰로 구현된 메모 에디터(Rich Editor) 개선 → 익숙하지 않은 개발 언어와 플랫폼에 대한 적응력 향상",
+                "iOS팀, 코드 리뷰 도입 및 적극 참여 → PR 기반의 협업 능력 향상"
             ]
         },
         {
-            "name": "개인 가계부 모바일 앱",
-            "link": "#",
-            "year": "2021",
-            "techStack": "React Native, Firebase, Redux",
+            "name": "째깍악어 부모님, 선생님 iOS 앱",
+            "year": "2021.11 - 23.09",
+            "techStack": "UIKit, SnapKit, ReactorKit, RxSwift, Fastlane, Clean Architecture",
             "descriptions": [
-                "React Native를 활용한 크로스 플랫폼 가계부 앱을 개발 및 배포하여 1,000명 이상의 실사용자를 확보했습니다.",
-                "로컬 스토리지와 백그라운드 동기화 기능을 구현하여 오프라인 환경에서도 지출 내역을 기록할 수 있도록 했습니다."
+                "부모님 앱(공고 조회/신청) 및 선생님 앱(교육/돌봄 관리) 기능 개발 및 운영",
+                "AutoResize(StoryBoard)에서 AutoLayout(Snapkit)으로 전환 → View 관련 버그 개선, StoryBoard 코드 충돌 이슈 해결",
+                "앱 전역 슈퍼 클래스 의존성 제거 → 잠재적 오류 가능성 감소",
+                "웹 뷰(앱 메인화면) 이벤트 브릿지 함수 개선 → 프론트팀 요청 신속 대응",
+                "일관되지 못한 MVP 패턴 개선 및 ReactorKit 리팩토링 → 버그 대응 및 기능 추가 속도 향상",
+                "디자인 시스템 구축 후 Custom UI 개발 → 협업 효율성 및 개발 속도 증대"
+            ]
+        },
+        {
+            "name": "째깍악어 선생님 앱 Flutter 전환",
+            "year": "2023.02 - 23.06",
+            "techStack": "Provider, Dio, Retrofit, Freezed, Get_it",
+            "descriptions": [
+                "iOS 네이티브 앱을 Flutter로 다시 만드는 프로젝트",
+                "iOS 관련 환경 세팅과 온보딩 화면 구현",
+                "2주 동안 Flutter 학습 후 프로젝트 시작 → 빠르게 학습하고 프로토타입을 제시하여 C레벨의 신뢰 획득",
+                "선언형 UI와 상태 관리에 대한 이해도 상승"
             ]
         }
     ],
     "activities": [
-        "<strong>FE Conf Korea 2023 발표</strong> – \"마이크로 프론트엔드로 확장 가능한 아키텍처 구축하기\".",
-        "<strong>기술 블로그 운영</strong> – React 성능 최적화 및 TypeScript 활용 팁 등 20개 이상의 기술 아티클 작성, 누적 조회수 5만 회 달성.",
-        "<strong>올해의 우수 사원상</strong> (Global E-commerce Ltd.) – 결제 시스템 안정화에 대한 공로를 인정받아 수상 (2020).",
-        "<strong>서울 테크 해커톤 1위</strong> – 시각 장애인을 위한 AI 기반 웹 접근성 개선 도구 개발 (2019)."
+        "내일배움캠프 앱 개발자 과정, 수료생 이력서 멘토링 (23.11 ~ 23.12)",
+        "맛있는 코드(특성화고 고등학생 iOS 과정), 멘토링 활동 (22.08 ~ 22.09)",
+        "야곰 아카데미(iOS 개발자 과정), 코드 리뷰어, 멘토링 활동 (21.11 ~ 24.04)",
+        "야곰 아카데미(iOS 개발자 과정), MVVM 특강 2회 진행 (23.05, 24.02)"
     ],
     "education": [
         {
-            "school": "한국대학교 (Korea University)",
-            "degree": "컴퓨터공학 학사",
-            "period": "2013.03 – 2017.02"
+            "school": "이노베이션 아카데미 (코디세이 AI 올인원)",
+            "degree": "Python 기반, AI 개발자 양성 과정",
+            "period": "2025.07 – 2025.12"
         },
         {
-            "school": "캘리포니아 대학교 버클리 (UC Berkeley)",
-            "degree": "교환학생 (Computer Science)",
-            "period": "2015.08 – 2016.05"
+            "school": "코드잇 스프린트",
+            "degree": "풀스택 개발자 과정 (React, Next.js, Express, Nest.js)",
+            "period": "2024.11 – 2025.05"
+        },
+        {
+            "school": "야곰 아카데미",
+            "degree": "iOS 커리어 스타터 캠프 수료",
+            "period": "2021.02 – 2021.08"
+        },
+        {
+            "school": "42 서울",
+            "degree": "본과정 합격 (C++, CS 학습)",
+            "period": "2020.02 – 2021.08"
+        },
+        {
+            "school": "백석대학교",
+            "degree": "회계학과/소프트웨어학 복수 전공",
+            "period": "2012.03 – 2019.02"
         }
     ]
 }

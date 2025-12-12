@@ -1,113 +1,167 @@
 {
     "profile": {
-        "name": "Ji-Hoon Kim",
-        "title": "Senior Frontend Engineer",
-        "photo": "https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2NTQyNjYxMnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "email": "jihoon.dev@example.com",
-        "phone": "+82 10-1234-5678",
+        "name": "Seungwoo Kim",
+        "title": "iOS / FullStack Developer",
+        "photo": "https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWitfGVufDF8fHx8MTc2NTQyNjYxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "email": "11882@naver.com",
+        "phone": "010-4853-9736",
         "location": "Seoul, South Korea",
-        "linkedin": "linkedin.com/in/jihoon-dev",
-        "github": "github.com/jihoon-dev",
-        "website": "jihoon.dev"
+        "github": "github.com/stevenkim18"
     },
-    "summary": "Product-minded Software Engineer with 6+ years of experience specializing in building scalable web applications with React, TypeScript, and Node.js. Proven track record of improving site performance by 40% and leading cross-functional teams to deliver critical features. Passionate about UI/UX consistency, accessibility, and engineering efficiency. Experienced in mentoring junior developers and driving technical decisions in fast-paced startup environments.",
+    "summary": "Productivity-focused iOS Engineer with 4+ years of experience, specializing in integrating <strong>AI tools like Claude Code and Gemini CLI</strong> into development workflows to maximize efficiency. Experienced in building scalable applications across diverse domains, from medical tech to Vision Pro spatial computing, using SwiftUI and TCA. I actively build custom tools to automate workflows and enhance developer productivity. Deeply committed to fostering a culture of collective growth through active code reviews and mentoring over 40 aspiring developers and students.",
     "experience": [
         {
-            "company": "Tech Startup Inc.",
-            "location": "San Francisco, CA (Remote)",
-            "role": "Senior Frontend Engineer",
-            "period": "Jan 2022 – Present",
+            "company": "SkyLabs",
+            "companyUrl": "https://www.skylabs.io/",
+            "companyDescription": "Medical device company specializing in ring-type blood pressure monitors (CART BP)",
+            "role": "iOS Developer",
+            "employmentType": "Freelance",
+            "period": "2025.09 – 2025.12",
             "achievements": [
-                "Spearheaded the migration of a legacy monolithic architecture to a <strong>Next.js micro-frontend system</strong>, reducing build times by 60% and enabling independent deployments for 3 squads.",
-                "Optimized core landing page Web Vitals, improving <strong>LCP from 2.5s to 0.8s</strong>, which directly contributed to a 15% increase in user conversion rates and SEO rankings.",
-                "Designed and implemented a comprehensive <strong>Design System</strong> using Radix UI and Tailwind CSS, standardizing UI components across 4 distinct products and reducing UI-related bugs by 30%.",
-                "Mentored 2 junior developers, conducting code reviews and weekly pair programming sessions to foster engineering best practices and clean code architecture.",
-                "Led the accessibility initiative (WCAG 2.1 AA), ensuring the product is usable by a wider audience and mitigating potential legal risks."
+                "Operating consumer and hospital apps",
+                "Participating in SwiftUI + TCA + Tuist migration project"
             ]
         },
         {
-            "company": "Global E-commerce Ltd.",
-            "location": "Seoul, South Korea",
-            "role": "Software Engineer",
-            "period": "Jun 2019 – Dec 2021",
+            "company": "XRStage",
+            "companyUrl": "https://www.wanted.co.kr/company/52965",
+            "companyDescription": "Spatial computing R&D startup (subsidiary of VA Corporation)",
+            "role": "Vision Pro Developer",
+            "employmentType": "Full-time",
+            "period": "2024.07 – 2024.08",
             "achievements": [
-                "Developed and maintained the checkout flow handling <strong>$1M+ in daily transaction volume</strong>, achieving 99.99% uptime during peak Black Friday traffic.",
-                "Integrated third-party payment gateways (Stripe, PayPal) and implemented a robust error handling system, reducing payment failures by 20% and improving customer trust.",
-                "Collaborated closely with product managers and designers to implement A/B tests that led to a 5% uplift in average order value (AOV).",
-                "Wrote comprehensive E2E tests using Cypress, increasing code coverage from 40% to 85% and significantly reducing regression bugs in the critical payment path.",
-                "Refactored legacy Redux state management to use React Query, simplifying data fetching logic and reducing boilerplate code by 40%."
+                "Vision Pro R&D and prototype app development and planning",
+                "Developed spatial weather app and furniture placement app for Vision Pro"
             ]
         },
         {
-            "company": "Creative Agency",
-            "location": "Seoul, South Korea",
-            "role": "Frontend Developer",
-            "period": "Mar 2017 – May 2019",
+            "company": "Dot Slash Dash",
+            "companyUrl": "https://www.dotslashdash.com/",
+            "companyDescription": "Short-form content-based marketing platform (Series A funded)",
+            "role": "iOS Developer",
+            "employmentType": "Full-time",
+            "period": "2024.04 – 2024.06",
             "achievements": [
-                "Built responsive, pixel-perfect websites for 10+ clients using React and SCSS, ensuring cross-browser compatibility down to IE11.",
-                "Automated image optimization pipelines using Gulp/Webpack, reducing total page weight by an average of 30% and improving load times on mobile networks.",
-                "Developed interactive promotional pages for major brand campaigns, incorporating complex GSAP animations to enhance user engagement."
+                "Operated the Dot Slash Dash app and developed new features"
             ]
         },
         {
-            "company": "University Lab",
-            "location": "Seoul, South Korea",
-            "role": "Undergraduate Research Assistant",
-            "period": "Sep 2016 – Feb 2017",
+            "company": "Connecting The Dots (Tjakkak Crocodile)",
+            "companyUrl": "https://thedotscorp.com/",
+            "companyDescription": "Child care matching platform (Series B funded)",
+            "role": "Mobile Developer",
+            "employmentType": "Full-time",
+            "period": "2021.11 – 2023.09",
             "achievements": [
-                "Assisted in developing a web-based data visualization tool for analyzing large-scale sensor data using D3.js.",
-                "Optimized database queries for MySQL, reducing data retrieval time for visualization rendering by 50%."
+                "Operated and developed features for Parent and Teacher apps"
+            ]
+        },
+        {
+            "company": "East Camp",
+            "companyDescription": "Online iOS developer bootcamp",
+            "role": "Assistant iOS Instructor",
+            "employmentType": "Freelance",
+            "period": "2025.05 – 2025.09",
+            "achievements": [
+                "Responsible for Q&A, mentoring, and project evaluation for ~40 students",
+                "Supported SwiftUI, UIKit, and Advanced iOS Programming courses"
+            ]
+        },
+        {
+            "company": "USG Shared University",
+            "companyDescription": "Online education program for university students in Gyeongsang province",
+            "role": "Apple Developer Course Instructor",
+            "employmentType": "Freelance",
+            "period": "2024.12 – 2025.02",
+            "achievements": [
+                "Taught 80+ students in Beginner/Intermediate iOS Development (twice a week, 8 weeks)",
+                "Delivered Swift basics, iOS programming fundamentals, and mentored individual projects"
             ]
         }
     ],
     "projects": [
         {
-            "name": "Real-time Collaboration Dashboard",
-            "link": "#",
-            "year": "2023",
-            "techStack": "React, WebSocket, Node.js, Redis, Docker",
+            "name": "Weather Watch (Vision Pro App)",
+            "year": "2024.07 - 24.08",
+            "techStack": "SwiftUI, ARKit, Apple WeatherKit, RealityKit",
             "descriptions": [
-                "Built a real-time analytics dashboard supporting 500+ concurrent connections using WebSockets and Redis Pub/Sub for instant data updates.",
-                "Implemented role-based access control (RBAC) to ensure data security across different user levels."
+                "Developed a real-time weather information widget app for Apple Vision Pro.",
+                "Established understanding of spatial computing and the development process for spatial apps.",
+                "Documented the development process for designers and planners after studying official Apple documentation."
             ]
         },
         {
-            "name": "Open Source Contribution: React UI Library",
-            "link": "#",
-            "year": "2022",
-            "techStack": "React, TypeScript, Jest",
+            "name": "Dot Slash Dash App Renewal",
+            "year": "2024.04 - 24.06",
+            "techStack": "SwiftUI, AVFoundation, MVVM, JavaScript, Rich Editor",
             "descriptions": [
-                "Contributed to a popular React UI component library by fixing a critical memory leak in the Modal component.",
-                "Added unit tests to cover edge cases, improving the overall reliability of the library for 10k+ weekly users."
+                "Full renewal project for video selection, memo writing, editing, and uploading features.",
+                "Completed and improved features in an unfinished project → Enhanced code analysis skills.",
+                "Improved the WebView-based Rich Editor → Increased adaptability to unfamiliar languages and platforms.",
+                "Introduced and actively participated in code reviews within the iOS team → Improved collaboration through PRs."
             ]
         },
         {
-            "name": "Mobile Expense Tracker App",
-            "link": "#",
-            "year": "2021",
-            "techStack": "React Native, Firebase, Redux",
+            "name": "Tjakkak Crocodile Parent & Teacher iOS Apps",
+            "year": "2021.11 - 23.09",
+            "techStack": "UIKit, SnapKit, ReactorKit, RxSwift, Fastlane, Clean Architecture",
             "descriptions": [
-                "Developed and deployed a cross-platform mobile application for tracking personal expenses, acquiring 1,000+ active users.",
-                "Implemented offline capability using local storage and background sync, allowing users to add expenses without internet connection."
+                "Developed and operated the Parent App (notice search/application) and Teacher App (education/care management).",
+                "Migrated from AutoResize (Storyboard) to AutoLayout (SnapKit) → Resolved view bugs and merge conflicts.",
+                "Removed global superclass dependencies → Reduced potential for unexpected errors.",
+                "Improved WebView event bridge functions → Enabled rapid response to frontend requests.",
+                "Refactored inconsistent MVP patterns to ReactorKit → Accelerated bug fixes and feature additions.",
+                "Built a Design System and developed Custom UI → Improved communication with design team and development speed."
+            ]
+        },
+        {
+            "name": "Tjakkak Crocodile Teacher App Flutter Migration",
+            "year": "2023.02 - 23.06",
+            "techStack": "Provider, Dio, Retrofit, Freezed, Get_it",
+            "descriptions": [
+                "Project to rebuild the native iOS app using Flutter.",
+                "Implemented iOS environment setup and onboarding screens.",
+                "Started project after 2 weeks of Flutter study → Quickly learned and presented a prototype, gaining C-level trust.",
+                "Enhanced understanding of declarative UI and state management."
             ]
         }
     ],
     "activities": [
-        "<strong>Speaker at FE Conf Korea 2023</strong> – \"Scaling Frontend Architecture with Micro-frontends\".",
-        "<strong>Medium Blog</strong> – Authored 20+ articles on React performance optimization and TypeScript best practices, accumulating 50k+ views.",
-        "<strong>Best Employee of the Year</strong> (Global E-commerce Ltd.) – Recognized for outstanding contribution to the payment system stability (2020).",
-        "<strong>1st Place, Seoul Tech Hackathon</strong> – Built an AI-powered accessibility tool for visually impaired users in 48 hours (2019)."
+        "<strong>Bootcamp Lecturing, Mentoring, and Code Reviewing</strong> (21.11 - 24.02)",
+        "Resume mentoring for graduates of the Naeil Learning Camp App Developer Course (23.11 ~ 23.12).",
+        "Mentoring for 'Tasty Code' (Vocational High School iOS Course) (22.08 ~ 22.09).",
+        "Code Reviewer & Mentor for Yagom Academy (iOS Developer Course) (21.11 ~ 24.04).",
+        "Conducted 2 MVVM Special Lectures at Yagom Academy (23.05, 24.02).",
+        "<strong>Other Achievements</strong>",
+        "Maintained 99% app stability using Firebase Crashlytics.",
+        "Established automated deployment using Fastlane and Firebase AppDistribution.",
+        "Introduced Code Conventions, GitFlow, Code Reviews, and Notion documentation to the iOS team."
     ],
     "education": [
         {
-            "school": "Korea University",
-            "degree": "Bachelor of Science in Computer Science",
-            "period": "Mar 2013 – Feb 2017"
+            "school": "Innovation Academy (Codyssey AI All-in-One)",
+            "degree": "AI-based Developer Course",
+            "period": "2025.07 – 2025.12"
         },
         {
-            "school": "University of California, Berkeley",
-            "degree": "Exchange Student, Computer Science",
-            "period": "Aug 2015 – May 2016"
+            "school": "Codeit Sprint",
+            "degree": "Full Stack Developer Course",
+            "period": "2024.11 – 2025.05"
+        },
+        {
+            "school": "Yagom Academy",
+            "degree": "iOS Professional Developer Course",
+            "period": "2021.02 – 2021.08"
+        },
+        {
+            "school": "42 Seoul",
+            "degree": "Passed Main Course (C++, CS)",
+            "period": "2020.02 – 2021.08"
+        },
+        {
+            "school": "Baekseok University",
+            "degree": "Double Major in Accounting & Software",
+            "period": "2012.03 – 2019.02"
         }
     ]
 }

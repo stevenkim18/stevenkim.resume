@@ -9,7 +9,7 @@ interface ResumeProps {
 }
 
 export const Resume = ({ data }: ResumeProps) => {
-  const { profile, summary, experience, projects, activities, education } = data;
+  const { profile, summary, skills, experience, projects, activities, education } = data;
 
   return (
     <div className="p-8 md:p-12 text-gray-900 font-sans text-[10pt] leading-snug break-keep">
@@ -94,6 +94,36 @@ export const Resume = ({ data }: ResumeProps) => {
         </section>
       )}
 
+      {/* --- SKILLS --- */}
+      {skills && skills.length > 0 && (
+        <section className="mb-5">
+          <h2 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-2 border-b border-gray-200 pb-1">
+            Skills
+          </h2>
+          <div className="space-y-1">
+            {skills.map((skillGroup, index) => (
+              <div key={index} className="flex items-start text-sm">
+                <span className="font-semibold text-gray-700 min-w-[80px] shrink-0">
+                  {skillGroup.category}
+                </span>
+                <span className="text-gray-700">
+                  {skillGroup.items.map((item, itemIndex) => (
+                    <span key={itemIndex}>
+                      {item.proficient ? (
+                        <strong>{item.name}</strong>
+                      ) : (
+                        item.name
+                      )}
+                      {itemIndex < skillGroup.items.length - 1 && ", "}
+                    </span>
+                  ))}
+                </span>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* --- EXPERIENCE --- */}
       {experience && experience.length > 0 && (
         <section className="mb-5">
@@ -103,6 +133,7 @@ export const Resume = ({ data }: ResumeProps) => {
 
           {experience.map((job, index) => (
             <div key={index} className={index < experience.length - 1 ? "mb-4" : ""}>
+              {/* 회사명 + 회사 소개 */}
               <div className="flex justify-between items-baseline mb-0.5">
                 <h3 className="text-base font-bold text-gray-900">
                   {job.companyUrl ? (
@@ -118,21 +149,33 @@ export const Resume = ({ data }: ResumeProps) => {
                     job.company
                   )}
                 </h3>
-                {job.location && (
-                  <span className="text-xs text-gray-500 font-medium">{job.location}</span>
+                {job.companyDescription && (
+                  <span className="text-xs text-gray-500 italic text-right ml-4">
+                    {job.companyDescription}
+                  </span>
                 )}
               </div>
-              <div className="flex justify-between items-baseline mb-1.5">
-                <p className="font-semibold text-gray-700 italic text-sm">
-                  {job.role}
-                  {job.employmentType && (
-                    <span className="ml-2 not-italic text-xs font-medium text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded">
-                      {job.employmentType}
+
+              {/* 직책 + 날짜 */}
+              <div className="flex justify-between items-baseline mb-1">
+                <div className="flex items-baseline">
+                  <p className="font-semibold text-gray-700 italic text-sm">
+                    {job.role}
+                    {job.employmentType && (
+                      <span className="ml-2 not-italic text-xs font-medium text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded">
+                        {job.employmentType}
+                      </span>
+                    )}
+                  </p>
+                  {job.location && (
+                    <span className="ml-2 text-xs text-gray-500 font-medium">
+                      · {job.location}
                     </span>
                   )}
-                </p>
-                <span className="text-xs text-gray-500 font-medium">{job.period}</span>
+                </div>
+                <span className="text-sm text-gray-500 font-medium">{job.period}</span>
               </div>
+
               <ul className="list-disc list-outside ml-3 space-y-0.5 text-gray-800">
                 {job.achievements.map((achievement, achIndex) => (
                   <li
@@ -142,6 +185,11 @@ export const Resume = ({ data }: ResumeProps) => {
                   />
                 ))}
               </ul>
+              {job.leaveReason && (
+                <p className="text-xs italic text-gray-400 mt-1 ml-3">
+                  퇴사 사유: {job.leaveReason}
+                </p>
+              )}
             </div>
           ))}
         </section>
