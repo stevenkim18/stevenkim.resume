@@ -46,13 +46,30 @@ export interface ResumeData {
         descriptions: string[];
     }[];
 
+    // 사이드 프로젝트 (배열)
+    sideProjects?: {
+        name: string;
+        period: string;
+        description: string;
+        techStack?: string;
+        link?: string;      // Demo 웹페이지
+        github?: string;    // GitHub 링크
+        video?: string;     // 시연 영상 링크
+        role?: string;
+        achievements?: string[];
+    }[];
+
     // 기타 활동 (배열)
-    activities?: string[];
+    activities?: {
+        text: string;
+        links?: { label: string; url: string }[];
+    }[];
 
     // 교육 (배열)
     education?: {
         school: string;
         degree: string;
         period: string;
+        link?: string;
     }[];
 }

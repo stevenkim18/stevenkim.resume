@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Phone, MapPin, Linkedin, Github, Globe } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Github, Globe, ExternalLink } from "lucide-react";
 import { ImageWithFallback } from "@/components/figma/ImageWithFallback";
 import { ResumeData } from "@/types/resume";
 
@@ -9,7 +9,7 @@ interface ResumeProps {
 }
 
 export const Resume = ({ data }: ResumeProps) => {
-  const { profile, summary, skills, experience, projects, activities, education } = data;
+  const { profile, summary, skills, experience, projects, sideProjects, activities, education } = data;
 
   return (
     <div className="p-8 md:p-12 text-gray-900 font-sans text-[10pt] leading-snug break-keep">
@@ -21,7 +21,8 @@ export const Resume = ({ data }: ResumeProps) => {
             <ImageWithFallback
               src={profile.photo}
               alt="Profile photo"
-              className="w-20 h-20 rounded-full object-cover border-2 border-gray-300 shrink-0"
+              className="w-20 h-20 rounded-full object-cover shrink-0"
+              style={{ objectPosition: 'center top' }}
             />
           )}
 
@@ -141,9 +142,10 @@ export const Resume = ({ data }: ResumeProps) => {
                       href={job.companyUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-blue-600 hover:underline transition-colors"
+                      className="hover:text-blue-600 hover:underline transition-colors inline-flex items-center gap-1"
                     >
                       {job.company}
+                      <ExternalLink className="w-3 h-3 inline" />
                     </a>
                   ) : (
                     job.company
@@ -206,14 +208,18 @@ export const Resume = ({ data }: ResumeProps) => {
             <div key={index} className={index < projects.length - 1 ? "mb-3" : ""}>
               <div className="flex justify-between items-baseline">
                 <h3 className="font-bold text-sm">
-                  {project.name}
-                  {project.link && (
+                  {project.link ? (
                     <a
                       href={project.link}
-                      className="ml-2 font-normal text-blue-600 hover:underline text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-blue-600 hover:underline transition-colors inline-flex items-center gap-1"
                     >
-                      (Link)
+                      {project.name}
+                      <ExternalLink className="w-3 h-3 inline" />
                     </a>
+                  ) : (
+                    project.name
                   )}
                 </h3>
                 <span className="text-xs text-gray-500 font-medium">{project.year}</span>
@@ -237,6 +243,74 @@ export const Resume = ({ data }: ResumeProps) => {
         </section>
       )}
 
+      {/* --- SIDE PROJECTS --- */}
+      {sideProjects && sideProjects.length > 0 && (
+        <section className="mb-5">
+          <h2 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-3 border-b border-gray-200 pb-1">
+            Side Projects
+          </h2>
+
+          {sideProjects.map((project, index) => (
+            <div key={index} className={index < sideProjects.length - 1 ? "mb-3" : ""}>
+              <div className="flex justify-between items-baseline">
+                <h3 className="font-bold text-sm">
+                  {project.link ? (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-blue-600 hover:underline transition-colors inline-flex items-center gap-1"
+                    >
+                      {project.name}
+                      <ExternalLink className="w-3 h-3 inline" />
+                    </a>
+                  ) : (
+                    project.name
+                  )}
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2 text-xs font-normal text-blue-600 hover:underline"
+                    >
+                      (GitHub)
+                    </a>
+                  )}
+                  {project.video && (
+                    <a
+                      href={project.video}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-1 text-xs font-normal text-blue-600 hover:underline"
+                    >
+                      (Video)
+                    </a>
+                  )}
+                </h3>
+                <span className="text-xs text-gray-500 font-medium">{project.period}</span>
+              </div>
+              {project.role && (
+                <p className="text-xs text-gray-600 italic">{project.role}</p>
+              )}
+              {project.techStack && (
+                <p className="text-xs text-gray-600 mb-1">
+                  <em>Tech Stack: {project.techStack}</em>
+                </p>
+              )}
+              <p className="text-gray-800 text-sm mb-1">{project.description}</p>
+              {project.achievements && project.achievements.length > 0 && (
+                <ul className="list-disc list-outside ml-3 space-y-0.5 text-gray-800">
+                  {project.achievements.map((achievement, achIndex) => (
+                    <li key={achIndex} className="pl-1">{achievement}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+        </section>
+      )}
+
       {/* --- OTHER ACTIVITIES --- */}
       {activities && activities.length > 0 && (
         <section className="mb-5">
@@ -245,11 +319,20 @@ export const Resume = ({ data }: ResumeProps) => {
           </h2>
           <ul className="list-disc list-outside ml-3 space-y-0.5 text-gray-800">
             {activities.map((activity, index) => (
-              <li
-                key={index}
-                className="pl-1"
-                dangerouslySetInnerHTML={{ __html: activity }}
-              />
+              <li key={index} className="pl-1">
+                {activity.text}
+                {activity.links && activity.links.map((link, linkIndex) => (
+                  <a
+                    key={linkIndex}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-1 text-xs font-normal text-blue-600 hover:underline"
+                  >
+                    ({link.label})
+                  </a>
+                ))}
+              </li>
             ))}
           </ul>
         </section>
@@ -267,7 +350,21 @@ export const Resume = ({ data }: ResumeProps) => {
               className={`flex justify-between items-baseline ${index < education.length - 1 ? "mb-1" : ""}`}
             >
               <div>
-                <h3 className="font-bold text-sm">{edu.school}</h3>
+                <h3 className="font-bold text-sm">
+                  {edu.link ? (
+                    <a
+                      href={edu.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-blue-600 hover:underline transition-colors inline-flex items-center gap-1"
+                    >
+                      {edu.school}
+                      <ExternalLink className="w-3 h-3 inline" />
+                    </a>
+                  ) : (
+                    edu.school
+                  )}
+                </h3>
                 <p className="text-gray-700 text-xs">{edu.degree}</p>
               </div>
               <span className="text-xs text-gray-500 font-medium">{edu.period}</span>
