@@ -31,7 +31,7 @@ export interface ResumeData {
         companyDescription?: string; // 회사 소개 (한 줄)
         location?: string;
         role: string;
-        employmentType?: "프리랜서" | "계약직" | "인턴" | "Freelance" | "Contract" | "Intern" | "정규직" | "Full-time";
+        employmentType?: string;
         period: string;
         achievements: string[];
         leaveReason?: string; // 퇴사 사유
