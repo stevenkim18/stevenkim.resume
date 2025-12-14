@@ -99,6 +99,18 @@
 
 ## 프로젝트
 
+### CART BP 앱, SwiftUI + TCA 전환
+- **기간**: 25.09 - 25.12
+- **설명**: UIKit + RxSwift로 되어 있는 앱을 SwiftUI + TCA + Tuist로 전환
+- **기술 스택**: SwiftUI, TCA, Tuist
+- **링크**: https://apps.apple.com/kr/app/cart-bp/id6752853015
+- **주요 성과**:
+  - Claude Code로 빠르게 레거시 코드 분석 및 문서화 진행
+  - 중앙 집중식 코디네이터를 피처별 네비게이션 모듈로 분산하여 유지보수성 향상
+  - Tuist 기반 모듈 아키텍처 구축으로 SwiftUI Preview 활용, 빠른 UI 개발
+  - TCA로 데이터 흐름 설계 후 Cursor AI로 UI/로직 구현 속도 향상
+
+
 ### Weather Watch 비전프로 앱
 - **기간**: 24.07 - 24.08
 - **설명**: 애플 비전 프로용, 실시간 날씨 정보 위젯 앱 개발 프로젝트
