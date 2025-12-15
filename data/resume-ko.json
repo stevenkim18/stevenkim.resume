@@ -214,7 +214,7 @@
         {
             "name": "Weather Watch 비전프로 앱",
             "link": "https://apps.apple.com/us/app/weather-watch/id6557054556",
-            "year": "2024.07 - 24.08",
+            "year": "2024.07 - 2024.08",
             "techStack": "SwiftUI, ARKit, Apple WeatherKit, RealityKit",
             "descriptions": [
                 "애플 비전 프로용, 실시간 날씨 정보 위젯 앱 개발 프로젝트",
@@ -225,7 +225,7 @@
         {
             "name": "Dot Slash Dash 앱 신규 업로드",
             "link": "https://apps.apple.com/us/app/%EB%8B%B7%EC%8A%AC%EB%9E%98%EC%8B%9C%EB%8C%80%EC%8B%9C-dot-slash-dash/id1575880550",
-            "year": "2024.04 - 24.06",
+            "year": "2024.04 - 2024.06",
             "techStack": "SwiftUI, AVFoundation, MVVM, JavaScript, Rich Editor",
             "descriptions": [
                 "영상 선택, 메모 작성, 편집, 업로드 기능 전체 리뉴얼 프로젝트",
@@ -237,7 +237,7 @@
         {
             "name": "째깍악어 부모님, 선생님 iOS 앱",
             "link": "https://apps.apple.com/us/app/%EC%A7%B8%EA%B9%8D%EC%95%85%EC%96%B4/id1189495776",
-            "year": "2021.11 - 23.09",
+            "year": "2021.11 - 2023.09",
             "techStack": "UIKit, SnapKit, ReactorKit, RxSwift, Fastlane, Clean Architecture",
             "descriptions": [
                 "부모님 앱(공고 조회/신청) 및 선생님 앱(교육/돌봄 관리) 기능 개발 및 운영",
@@ -251,7 +251,7 @@
         {
             "name": "째깍악어 선생님 앱 Flutter 전환",
             "link": "https://apps.apple.com/us/app/%EC%A7%B8%EA%B9%8D%EC%95%85%EC%96%B4-%EC%84%A0%EC%83%9D%EB%8B%98%EC%95%B1/id1530507302",
-            "year": "2023.02 - 23.06",
+            "year": "2023.02 - 2023.06",
             "techStack": "Provider, Dio, Retrofit, Freezed, Get_it",
             "descriptions": [
                 "iOS 네이티브 앱을 Flutter로 다시 만드는 프로젝트",
