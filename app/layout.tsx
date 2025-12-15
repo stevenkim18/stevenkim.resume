@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "김승우 이력서",
   description: "김승우의 이력서",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
