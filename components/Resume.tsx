@@ -9,7 +9,7 @@ interface ResumeProps {
 }
 
 export const Resume = ({ data }: ResumeProps) => {
-  const { profile, summary, skills, experience, projects, sideProjects, activities, education } = data;
+  const { profile, summary, skills, experience, projects, sideProjects, activities, selfIntroduction, education } = data;
 
   return (
     <div className="p-8 md:p-12 text-gray-900 font-sans text-[10pt] leading-snug break-keep">
@@ -335,6 +335,29 @@ export const Resume = ({ data }: ResumeProps) => {
               </li>
             ))}
           </ul>
+        </section>
+      )}
+
+      {/* --- ABOUT ME --- */}
+      {selfIntroduction && selfIntroduction.length > 0 && (
+        <section className="mb-5">
+          <h2 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-2 border-b border-gray-200 pb-1">
+            About Me
+          </h2>
+          <div className="space-y-3">
+            {selfIntroduction.map((item, index) => (
+              <div key={index}>
+                <h3 className="font-bold text-sm text-gray-900 mb-1">{item.title}</h3>
+                <div className="space-y-1.5 text-gray-800">
+                  {item.paragraphs.map((paragraph, paragraphIndex) => (
+                    <p key={paragraphIndex} className="text-sm">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </section>
       )}
 

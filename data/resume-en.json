@@ -304,6 +304,29 @@
             ]
         }
     ],
+    "selfIntroduction": [
+        {
+            "title": "T-Shaped Talent for the AI Era",
+            "paragraphs": [
+                "For four years, I worked as an iOS developer in startup environments, directly experiencing the full app lifecycle from new feature development to maintenance, deployment, and operations. Working in small teams helped me naturally build a product-wide perspective through close collaboration with planners, designers, and backend developers.",
+                "Recently, I have not stayed within iOS specialization alone and have consistently expanded my full-stack and AI tool capabilities. I do not see AI development tools as simple code generators. I am interested in maximizing productivity by first structuring the big picture through architecture and design patterns, then directing AI development within that framework. By using Cursor and Claude Code this way, I have built the execution ability to create polished products quickly, even independently. My goal is to maintain technical depth while broadening my range so I can adapt flexibly in fast-changing environments."
+            ]
+        },
+        {
+            "title": "Someone Who Aims to Grow Together",
+            "paragraphs": [
+                "Throughout my career, I have consistently combined development work with education and helping others. I worked as a code reviewer and mentor in bootcamps, supported students' growth, and personally planned and delivered online live special lectures. Last year, I delivered an online live class for 80 university students, and in a bootcamp with 40 trainees, I took professional responsibility for development Q&A, mentoring, code reviews, and evaluations. I started with a simple desire to help, but I came to realize firsthand that explaining concepts and answering questions deepened my own understanding as well. Because helping others grow is also my own growth, I continue this work based on the rigorous journey I went through while transitioning from an accounting major to a developer.",
+                "This mindset naturally carried into in-house collaboration. In an iOS team without a code review culture, I directly persuaded teammates to adopt and settle a GitHub-based code review process. I wanted it to be more than a procedure for checking code, but a culture of reading each other's code, sharing context, and learning together. As a result, overall code quality improved, and a trusting team atmosphere formed."
+            ]
+        },
+        {
+            "title": "Execution That Takes Ownership to the End in Any Environment",
+            "paragraphs": [
+                "At my first company, I experienced the iOS team shrinking from five people to one due to company circumstances. Even as teammates left one by one, I remained as the last iOS developer and took full responsibility for cleaning up legacy code and finishing the remaining work. For code or features without history, I identified context by asking not only developers from other domains, but also planners, designers, and QA members directly, then organized issues one by one. After cleanly wrapping up all native app-related work, I chose my next step on my own for better growth.",
+                "In a recent freelance project, there was not much assigned work at first due to launch schedule and company circumstances. Instead of waiting idly, I secured all available source code and documents, used AI to understand the overall structure in advance, and responded quickly whenever tasks came in. In the final stage, I proactively led a structural refactor across the app and successfully completed the project. Rather than blaming the environment, I prepare myself and create opportunities within the given situation. That is how I work."
+            ]
+        }
+    ],
     "education": [
         {
             "school": "Codyssey AI All-in-One (Innovation Academy)",

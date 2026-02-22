@@ -65,6 +65,12 @@ export interface ResumeData {
         links?: { label: string; url: string }[];
     }[];
 
+    // 자기 소개 (배열)
+    selfIntroduction?: {
+        title: string;
+        paragraphs: string[];
+    }[];
+
     // 교육 (배열)
     education?: {
         school: string;
