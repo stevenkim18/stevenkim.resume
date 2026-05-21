@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Resume } from "@/components/Resume";
 import { Button } from "@/components/ui/button";
-import { Printer, Globe } from "lucide-react";
+import { Printer } from "lucide-react";
 
 import resumeKo from "@/data/resume-ko.json";
 import resumeEn from "@/data/resume-en.json";
@@ -22,7 +22,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center print:p-0 print:bg-white">
       {/* 이력서 컨테이너 (A4 비율, 화면에서는 그림자 포함) */}
       <div className="w-full max-w-[210mm] min-h-[297mm] bg-white shadow-xl print:shadow-none print:w-full print:max-w-none print:h-auto overflow-hidden">
-        <Resume data={resumeData} />
+        <Resume data={resumeData} lang={lang} />
       </div>
 
       {/* 플로팅 컨트롤 패널 (우측 하단) */}

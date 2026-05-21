@@ -3,7 +3,7 @@
 ## 기본 정보
 
 - **이름**: 김승우
-- **직함**: iOS / FullStack 개발자
+- **직함**: Product Engineer
 - **전화번호**: 010-4853-9736
 - **이메일**: 11882@naver.com
 - **GitHub**: https://github.com/stevenkim18
@@ -12,22 +12,33 @@
 
 ## 요약
 
-약 4년간 iOS 모바일 개발자로 근무했으며, 현재는 프리랜서로 iOS 개발과 교육을 병행하고 있습니다.
-최근에는 풀스택 개발 역량을 확장하는 동시에, AI 기술을 활용해 빠르게 서비스를 구현하는 방법과 AI와 함께 성장하기 위한 효율적인 학습 방식에 관심을 가지고 다양한 시도를 이어가고 있습니다.
-최신 기술과 도구를 적극적으로 탐색하고, 이를 실제 프로젝트에 적용해 공유하는 과정을 즐깁니다.
+iOS 개발자 경험을 기반으로 풀스택 개발, 제품 기획, PM 역할까지 확장하고 있는 Product Engineer입니다.
+AI 도구를 적극적으로 활용해 빠르게 학습하고 구현하며, 요구사항 정리와 문서화, 외주 개발 관리처럼 제품이 실제로 완성되기 위한 업무도 함께 수행하고 있습니다.
+부트캠프 멘토링, 코드 리뷰, iOS 강의 경험을 통해 교육과 지식 공유에도 꾸준히 관심을 가져왔습니다.
 
 ---
 
 ## 기술 스택
 
-- **iOS**: **Swift**, **SwiftUI**, **UIKit**, **TCA**, **RxSwift**, **ReactorKit**, **SnapKit**, Tuist, Flutter, ARKit, RealityKit
-- **Frontend**: JavaScript, TypeScript, React, Next.js
-- **Backend**: Express, Nest.js, PostgreSQL, Prisma, Docker, FastAPI
-- **AI Tools**: **Claude Code**, **Cursor**, **Antigravity**, **Gemini CLI**
+- **AI Tools**: Claude Code, Codex, Cursor, Antigravity, Gemini CLI
+- **iOS**: Swift, SwiftUI, UIKit, TCA, RxSwift, ReactorKit, SnapKit, Tuist, Flutter, ARKit, RealityKit
+- **Frontend**: JavaScript, TypeScript, React, Next.js, shadcn/ui
+- **Backend**: Ruby on Rails, Express, Nest.js, PostgreSQL, Prisma, Docker, FastAPI
 
 ---
 
 ## 경력
+
+### 위드 설리번
+- **기간**: 26.04 - 현재
+- **직책**: Technical PM / Developer
+- **고용형태**: 정규직
+- **사이트**: https://xn--hy1b84g0wc20g2wi.com/
+- **회사 소개**: 아이 발달 심리 센터 컨설팅 회사
+- **내용**:
+  - 고객 병원/센터 CRM 및 B2C 앱 프로젝트 진행
+  - 외주 개발사 커뮤니케이션, 요구사항 정리, 기능 명세, 일정/이슈 관리 담당
+  - 기획자, PM, 개발자 역할을 병행하며 제품 요구사항과 개발 범위 문서화
 
 ### 스카이랩스 (SkyLabs)
 - **기간**: 25.09 - 25.12
@@ -36,7 +47,7 @@
 - **사이트**: https://www.skylabs.io/
 - **회사 소개**: 반지형 혈압 측정기 CART BP 개발 의료기기 스타트업
 - **내용**:
-  - UiKit, RxSwift로 되어 있는 일반 사용자 앱을 SwiftUI + TCA + Tuist(모듈화)로 전환
+  - UIKit, RxSwift로 되어 있는 일반 사용자 앱 → SwiftUI + TCA + Tuist(모듈화) 스택으로 전환
 
 ### 이스트캠프
 - **기간**: 25.05 - 25.09
@@ -67,7 +78,6 @@
 - **내용**:
   - Vision Pro R&D 및 프로토타입 앱 개발 및 기획
   - Vision Pro 공간 날씨 앱, 가구 배치 앱 개발
-  - 퇴사 사유: 개인 사정으로 인한 수습 종료
 
 ### 닷슬래시대시 (Dot Slash Dash)
 - **기간**: 24.04 - 24.06
@@ -90,11 +100,10 @@
   - Storyboard와 AutoResize, MVP 패턴으로 되어 있는 구조를 SnapKit, ReactorKit로 전환
   - iOS 네이티브 앱에서 Flutter 전환 프로젝트 참여.
   - Firebase Crashlytics를 활용하여 앱 안정성 99% 유지
-  - FastLane, Firebase AppDistribution을 이용해서 배포 자동화 구축 → 사내 배포 시스템 구축으로 QA팀과 커뮤니케이션 효율성을 높임
+  - Fastlane, Firebase AppDistribution을 이용해서 배포 자동화 구축
   - iOS팀에 코드 컨벤션, GitFlow, 코드 리뷰 도입
   - iOS팀에 Notion 도입, 업무 문서화 진행
   - 채널톡, 네이버 로그인, 마케팅 툴(Amplitude, Braze, Airbridge) 등 외부 SDK 적용
-  - 퇴사 사유: iOS 개발자가 5명에서 1명으로 줄어드는 상황에서 네이티브 업무와 Flutter 업무를 동시에 수행, 모든 업무를 끝까지 남아서 잘 마무리하고 커리어 발전을 위해 퇴사
 ---
 
 ## 프로젝트
@@ -160,27 +169,26 @@
 ## 사이드 프로젝트
 
 ### Sori(소리) AI - AI 안부 전화 서비스
-- **기간**: 2024.11 (약 3주)
-- **설명**: 독거 어르신을 위한 AI 안부 전화 서비스. AI가 매일 정해진 시간에 전화를 걸어 대화하고, 통화 내용을 요약/감정 분석하여 보호자에게 리포트를 제공하는 풀스택 프로젝트
-- **기술 스택**: Swift, SwiftUI, VAPI SDK, PushKit, CallKit
+- **기간**: 2025.11 (약 3주)
+- **설명**: 독거 어르신을 위한 AI 안부 전화 서비스. AI가 매일 정해진 시간에 전화를 걸어 대화하고, 통화 내용을 요약/감정 분석하여 보호자에게 리포트 제공
+- **기술 스택**: Next.js, FastAPI, PostgreSQL, SwiftUI, TCA, CallKit, PushKit, APNS, VAPI SDK
 - **GitHub**: https://github.com/codyssey-PRISM/SoriAI
 - **Demo**: https://ai-care-call-web.vercel.app/
 - **Video**: https://www.youtube.com/watch?v=EiZq421BZdk
-- **팀 구성**: 4명 (프론트엔드, 백엔드, iOS, 풀스택)
-- **주최**: 이노베이션 아카데미 - Codyssey
-- **담당 역할**: iOS 앱 개발
-  - VAPI SDK를 활용한 AI 음성 통화 기능 구현
-  - PushKit + CallKit으로 실제 전화와 동일한 UX 제공
-  - 초대코드 기반 보호자-어르신 연결 플로우 구현
+- **담당 역할**: 팀 리딩, iOS, FullStack 개발
+- **주요 성과**:
+  - 비개발자 팀원들을 이끌고 AI를 활용하여 개발, 대상 수상
+  - VAPI SDK와 PushKit + CallKit을 활용한 AI 음성 통화 기능 구현
 
 ---
 
 ## 기타 활동
-- 코디세이 AI 올안원, Term-Project 대상 (과학기술통신부 장관상) (2025.11)
-- 내일배움캠프 앱 개발자 과정, 수료생 이력서 멘토링 (2023.11 ~ 2023.12)
-- 맛있는 코드(특성화고 고등학생 iOS 과정), 멘토링 활동 (2022.08 ~ 2022.09)
-- 야곰 아카데미(iOS 개발자 과정), 코드 리뷰어, 멘토링 활동 (2021.11 ~ 2024.04)
-- 야곰 아카데미(iOS 개발자 과정), MVVM 특강 2회 진행 (2023.05, 2024.02)
+- SK mySUNI 임직원, SK 이노베이션 임원 대상 AI 교육 보조강사 (2026)
+- 코디세이 AI 올인원 Term-Project 과학기술통신부 장관상(대상) 수상 (2025)
+- 내일배움캠프 iOS 수료생 이력서 멘토링 (2023)
+- 맛있는 코드 iOS 멘토링 (2022)
+- 야곰 아카데미 코드 리뷰어/멘토 (2021-2024)
+- 야곰 아카데미 MVVM 특강 2회 (2023, 2024)
   - 2023.05 유튜브 링크: https://www.youtube.com/watch?v=qZYq7IOfAf8
   - 2024.02 유튜브 링크: https://www.youtube.com/watch?v=sfHScwfeqh8
 

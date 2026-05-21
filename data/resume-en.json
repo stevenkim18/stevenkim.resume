@@ -1,45 +1,58 @@
 {
     "profile": {
         "name": "Seungwoo Kim",
-        "title": "iOS / FullStack Developer",
+        "title": "Product Engineer",
         "photo": "/gemini_made.png",
         "email": "11882@naver.com",
         "phone": "010-4853-9736",
         "location": "Seoul, South Korea",
         "github": "github.com/stevenkim18"
     },
-    "summary": "I have worked as an iOS mobile developer for about 4 years and am currently working as a freelancer, balancing iOS development and education. Recently, I have been expanding my full-stack development capabilities while exploring ways to quickly implement services using AI technology and efficient learning methods to grow alongside AI. I enjoy actively exploring the latest technologies and tools, applying them to real projects, and sharing my experiences.",
+    "summary": "I am a Product Engineer expanding from an iOS development background into full-stack development, product planning, and PM responsibilities. I actively use AI tools to learn and build quickly, while also covering the work needed to complete products, including requirements definition, documentation, and outsourced development management. Through bootcamp mentoring, code reviews, and iOS teaching experience, I have also maintained a strong interest in education and knowledge sharing.",
     "skills": [
+        {
+            "category": "AI Tools",
+            "items": [
+                {
+                    "name": "Claude Code"
+                },
+                {
+                    "name": "Codex"
+                },
+                {
+                    "name": "Cursor"
+                },
+                {
+                    "name": "Antigravity"
+                },
+                {
+                    "name": "Gemini CLI"
+                }
+            ]
+        },
         {
             "category": "iOS",
             "items": [
                 {
-                    "name": "Swift",
-                    "proficient": true
+                    "name": "Swift"
                 },
                 {
-                    "name": "SwiftUI",
-                    "proficient": true
+                    "name": "SwiftUI"
                 },
                 {
-                    "name": "UIKit",
-                    "proficient": true
+                    "name": "UIKit"
                 },
                 {
-                    "name": "TCA",
-                    "proficient": true
+                    "name": "TCA"
                 },
                 {
-                    "name": "RxSwift",
-                    "proficient": true
+                    "name": "RxSwift"
                 },
                 {
-                    "name": "ReactorKit",
-                    "proficient": true
+                    "name": "ReactorKit"
                 },
                 {
-                    "name": "SnapKit",
-                    "proficient": true
+                    "name": "SnapKit"
                 },
                 {
                     "name": "Tuist"
@@ -69,12 +82,18 @@
                 },
                 {
                     "name": "Next.js"
+                },
+                {
+                    "name": "shadcn/ui"
                 }
             ]
         },
         {
             "category": "Backend",
             "items": [
+                {
+                    "name": "Ruby on Rails"
+                },
                 {
                     "name": "Express"
                 },
@@ -94,30 +113,22 @@
                     "name": "FastAPI"
                 }
             ]
-        },
-        {
-            "category": "AI Tools",
-            "items": [
-                {
-                    "name": "Claude Code",
-                    "proficient": true
-                },
-                {
-                    "name": "Cursor",
-                    "proficient": true
-                },
-                {
-                    "name": "Antigravity",
-                    "proficient": true
-                },
-                {
-                    "name": "Gemini CLI",
-                    "proficient": true
-                }
-            ]
         }
     ],
     "experience": [
+        {
+            "company": "With Sullivan",
+            "companyUrl": "https://xn--hy1b84g0wc20g2wi.com/",
+            "companyDescription": "Consulting company for child development psychology centers",
+            "role": "Technical PM / Developer",
+            "employmentType": "Full-time",
+            "period": "2026.04 – Present",
+            "achievements": [
+                "Working on customer hospital/center CRM and B2C app projects",
+                "Managing outsourced development communication, requirements, feature specifications, schedules, and issues",
+                "Documenting product requirements and development scope while covering planning, PM, and developer responsibilities"
+            ]
+        },
         {
             "company": "SkyLabs",
             "companyUrl": "https://www.skylabs.io/",
@@ -163,8 +174,7 @@
             "achievements": [
                 "Vision Pro R&D and prototype app development and planning",
                 "Developed spatial weather app and furniture placement app for Vision Pro"
-            ],
-            "leaveReason": "Probation ended due to personal circumstances"
+            ]
         },
         {
             "company": "Dot Slash Dash",
@@ -194,8 +204,7 @@
                 "Introduced code conventions, GitFlow, and code reviews to iOS team",
                 "Introduced Notion for iOS team documentation",
                 "Integrated external SDKs (ChannelTalk, Naver Login, Amplitude, Braze, Airbridge)"
-            ],
-            "leaveReason": "Resigned for career development"
+            ]
         }
     ],
     "projects": [
@@ -279,6 +288,9 @@
     ],
     "activities": [
         {
+            "text": "Assistant instructor for AI training for SK mySUNI employees and SK Innovation executives (2026)"
+        },
+        {
             "text": "Codyssey AI All-in-One Term-Project Grand Prize (Minister of Science and ICT Award) (2025)"
         },
         {
@@ -323,7 +335,7 @@
             "title": "Execution That Takes Ownership to the End in Any Environment",
             "paragraphs": [
                 "At my first company, I experienced the iOS team shrinking from five people to one due to company circumstances. Even as teammates left one by one, I remained as the last iOS developer and took full responsibility for cleaning up legacy code and finishing the remaining work. For code or features without history, I identified context by asking not only developers from other domains, but also planners, designers, and QA members directly, then organized issues one by one. After cleanly wrapping up all native app-related work, I chose my next step on my own for better growth.",
-                "In a recent freelance project, there was not much assigned work at first due to launch schedule and company circumstances. Instead of waiting idly, I secured all available source code and documents, used AI to understand the overall structure in advance, and responded quickly whenever tasks came in. In the final stage, I proactively led a structural refactor across the app and successfully completed the project. Rather than blaming the environment, I prepare myself and create opportunities within the given situation. That is how I work."
+                "In a freelance project, there was not much assigned work at first due to launch schedule and company circumstances. Instead of waiting idly, I secured all available source code and documents, used AI to understand the overall structure in advance, and responded quickly whenever tasks came in. In the final stage, I proactively led a structural refactor across the app and successfully completed the project. Rather than blaming the environment, I prepare myself and create opportunities within the given situation. That is how I work."
             ]
         }
     ],

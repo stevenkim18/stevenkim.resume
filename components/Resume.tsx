@@ -6,10 +6,12 @@ import { ResumeData } from "@/types/resume";
 
 interface ResumeProps {
   data: ResumeData;
+  lang: "en" | "kr";
 }
 
-export const Resume = ({ data }: ResumeProps) => {
+export const Resume = ({ data, lang }: ResumeProps) => {
   const { profile, summary, skills, experience, projects, sideProjects, activities, selfIntroduction, education } = data;
+  const leaveReasonLabel = lang === "kr" ? "퇴사 사유" : "Leave reason";
 
   return (
     <div className="p-8 md:p-12 text-gray-900 font-sans text-[10pt] leading-snug break-keep">
@@ -189,7 +191,7 @@ export const Resume = ({ data }: ResumeProps) => {
               </ul>
               {job.leaveReason && (
                 <p className="text-xs italic text-gray-400 mt-1 ml-3">
-                  퇴사 사유: {job.leaveReason}
+                  {leaveReasonLabel}: {job.leaveReason}
                 </p>
               )}
             </div>
