@@ -31,7 +31,7 @@ AI 도구를 적극적으로 활용해 빠르게 학습하고 구현하며, 요�
 
 ### 위드 설리번
 - **기간**: 26.04 - 현재
-- **직책**: Technical PM / Developer
+- **직책**: PM · 서비스 기획 · 풀스택 개발
 - **고용형태**: 정규직
 - **사이트**: https://xn--hy1b84g0wc20g2wi.com/
 - **회사 소개**: 아이 발달 심리 센터 컨설팅 회사
@@ -107,6 +107,19 @@ AI 도구를 적극적으로 활용해 빠르게 학습하고 구현하며, 요�
 ---
 
 ## 프로젝트
+
+### Tio CRM 및 모바일 앱 정식 출시
+- **기간**: 2026.04 – 2026.07
+- **기술 스택**: PHP, jQuery, MySQL, Notion, Codex
+- **웹**: https://sulivan.gtsoft.kr/app/common/login
+- **iOS**: https://apps.apple.com/kr/app/tio-%EB%B0%9C%EB%8B%AC-%EC%B9%98%EB%A3%8C-%EC%98%AC%EC%9D%B8%EC%9B%90-%ED%94%8C%EB%9E%AB%ED%8F%BC/id6769319242
+- **AOS**: https://play.google.com/store/apps/details?id=com.withsulivan.app&hl=ko
+- **주요 성과**:
+  - 정체된 Tio CRM 및 모바일 앱 프로젝트에 투입되어 본사 구성원과 외주 개발사와 협업하며 서비스 정식 출시까지 진행
+  - 본사와 외주 개발사 간 Task 및 이슈 관리 체계가 부재한 상황에서 Notion을 도입하고, 요구사항·기능 명세·일정·이슈를 문서화
+  - 정리되지 않은 서비스 기획을 출시 가능한 범위와 우선순위에 맞춰 구조화
+  - 기존 코드와 데이터 구조를 분석한 뒤 레거시 환경에 적합한 방식으로 기능 개발 및 안정화
+  - Codex를 활용해 기존 서비스 데이터를 일괄 추출·가공·검증하고 신규 CRM으로 이관
 
 ### CART BP 앱, SwiftUI + TCA 전환
 - **기간**: 25.09 - 25.12

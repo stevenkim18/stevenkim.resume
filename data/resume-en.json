@@ -120,7 +120,7 @@
             "company": "With Sullivan",
             "companyUrl": "https://xn--hy1b84g0wc20g2wi.com/",
             "companyDescription": "Consulting company for child development psychology centers",
-            "role": "Technical PM / Developer",
+            "role": "PM · Service Planning · Full-stack Development",
             "employmentType": "Full-time",
             "period": "2026.04 – Present",
             "achievements": [
@@ -208,6 +208,21 @@
         }
     ],
     "projects": [
+        {
+            "name": "Tio CRM & Mobile Apps Official Launch",
+            "link": "https://sulivan.gtsoft.kr/app/common/login",
+            "ios": "https://apps.apple.com/kr/app/tio-%EB%B0%9C%EB%8B%AC-%EC%B9%98%EB%A3%8C-%EC%98%AC%EC%9D%B8%EC%9B%90-%ED%94%8C%EB%9E%AB%ED%8F%BC/id6769319242",
+            "android": "https://play.google.com/store/apps/details?id=com.withsulivan.app&hl=ko",
+            "year": "2026.04 – 2026.07",
+            "techStack": "PHP, jQuery, MySQL, Notion, Codex",
+            "descriptions": [
+                "Joined stalled Tio CRM & Mobile App projects, collaborating with HQ team and outsourced agency to successfully drive official launch",
+                "Established Notion to build a missing task and issue management system between HQ and agency, documenting requirements, feature specifications, schedules, and issues",
+                "Structured unorganized service planning according to launchable scope and priorities",
+                "Analyzed existing code and data structures, developing and stabilizing features suitable for legacy environments",
+                "Utilized Codex to batch extract, transform, verify, and migrate legacy service data to the new CRM"
+            ]
+        },
         {
             "name": "CART BP App - SwiftUI + TCA Migration",
             "link": "https://apps.apple.com/kr/app/cart-bp/id6752853015",

@@ -41,6 +41,8 @@ export interface ResumeData {
     projects?: {
         name: string;
         link?: string;
+        ios?: string;
+        android?: string;
         year: string;
         techStack?: string;
         descriptions: string[];
