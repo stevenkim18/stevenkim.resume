@@ -124,7 +124,7 @@
             "employmentType": "Full-time",
             "period": "2026.04 – Present",
             "achievements": [
-                "Working on customer hospital/center CRM and B2C app projects",
+                "Led service planning, agency collaboration, and data migration for customer hospital/center Tio CRM & B2C apps, achieving official launch",
                 "Managing outsourced development communication, requirements, feature specifications, schedules, and issues",
                 "Documenting product requirements and development scope while covering planning, PM, and developer responsibilities"
             ]
@@ -216,11 +216,11 @@
             "year": "2026.04 – 2026.07",
             "techStack": "PHP, jQuery, MySQL, Notion, Codex",
             "descriptions": [
-                "Joined stalled Tio CRM & Mobile App projects, collaborating with HQ team and outsourced agency to successfully drive official launch",
+                "Joined delayed projects, reorganized service planning, coordinated HQ team and agency, and led official launch",
                 "Established Notion to build a missing task and issue management system between HQ and agency, documenting requirements, feature specifications, schedules, and issues",
                 "Structured unorganized service planning according to launchable scope and priorities",
                 "Analyzed existing code and data structures, developing and stabilizing features suitable for legacy environments",
-                "Utilized Codex to batch extract, transform, verify, and migrate legacy service data to the new CRM"
+                "Utilized Codex to extract, transform, validate, and migrate up to five years of legacy CRM data from 17 centers to the new CRM"
             ]
         },
         {
